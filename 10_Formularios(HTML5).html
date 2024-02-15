@@ -5,7 +5,7 @@
 </head>
 <body>
     
-    <form>
+    <form action="" method="GET">
         <p>
             <label for="nombre"><b>Nombre:</b></label>
             <input id="nombre" name="nombre" type="text" />
@@ -37,6 +37,25 @@
         <p>
             <label for="semana"><b>Semana:</b></label>
             <input type="week" id="semana" name="semana" />
+        </p>
+        <p>
+            <label for="numero"><b>Número (min-10, max-10):</b></label>
+            <input type="number" name="numero" id="numero" />
+        </p>
+        <p>
+            <label for="telefono"><b>Teléfono:</b></label>
+            <input type="tel" name="telefono" id="telefono" />
+        </p>
+        <p>
+            <label for="busqueda"><b>Término de búsqueda:</b></label>
+            <input type="search" id="busqueda" name="busqueda">
+        </p>
+        <p>
+            <label for="color"><b>Color favorito:</b></label>
+            <input type="color" id="color" name="color" />
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
         </p>
     </form>
 
